@@ -3,10 +3,10 @@ Ertis Auth Initializer CLI
 
 Ertis Auth Command Line Interface. 
 
-#Package Index
+# Package Index
 
 
-##Migrate 
+## Migrate 
 
 Init your database (mongodb) for using ertis auth.
 
@@ -19,22 +19,22 @@ This manually operation have some risks.
 
 Ertis Auth CLI create first models and create mongodb indexes by your given mongodb connection string.
 
-###Usage
+### Usage
 
-####Installation
+#### Installation
 
 
 ```bash
 $ pip install migrate
 ```
 
-####Help
+#### Help
 
 ```bash
 $ migrate --help
 ```
 
-####Setup
+#### Setup
 ```bash
 $ migrate -c <mogno_connection_string> -d <datbase_name>
 
