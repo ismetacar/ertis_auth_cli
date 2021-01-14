@@ -1,6 +1,13 @@
 Ertis Auth Initializer CLI
 ===
 
+Ertis Auth Command Line Interface. 
+
+#Package Index
+
+
+##Migrate 
+
 Init your database (mongodb) for using ertis auth.
 
 If you are using ertis auth, you should create first membership, role and user.
@@ -12,24 +19,22 @@ This manually operation have some risks.
 
 Ertis Auth CLI create first models and create mongodb indexes by your given mongodb connection string.
 
-Usage
-===
+###Usage
 
-Installation
----
+####Installation
+
 
 ```bash
 $ pip install migrate
 ```
 
-Help
----
+####Help
+
 ```bash
 $ migrate --help
 ```
 
-Setup
----
+####Setup
 ```bash
 $ migrate -c <mogno_connection_string> -d <datbase_name>
 
@@ -48,7 +53,7 @@ Initialize you ertis auth service.
 ? Do you want create indexes on mongodb for ertis auth? [y|N]  True
 ```
 
-After installation you can check your mongodb collections and indexes. 
+You can check your mongodb collections and indexes after installation. 
 
 > Note:  if you have memberships, roles and users collections already this cli will be created only documents. s
 > And documents means new membership, new role under membership and new user under membership. 
