@@ -25,7 +25,7 @@ Ertis Auth CLI create first models and create mongodb indexes by your given mong
 
 
 ```bash
-$ pip install migrate
+$ pip install ertis_auth_cli
 ```
 
 #### Help
