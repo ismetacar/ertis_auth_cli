@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+Readme.md
+requirements.txt
+setup.py
+test.py
+ertis_auth_migrate.egg-info/PKG-INFO
+ertis_auth_migrate.egg-info/SOURCES.txt
+ertis_auth_migrate.egg-info/dependency_links.txt
+ertis_auth_migrate.egg-info/requires.txt
+ertis_auth_migrate.egg-info/top_level.txt
+src/__init__.py
+src/ertis_auth_migrate

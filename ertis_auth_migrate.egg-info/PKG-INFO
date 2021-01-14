@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: migrate
-Version: 0.1.0
+Name: ertis-auth-migrate
+Version: 0.1.4
 Summary: Ertis Auth initializer CLI
 Home-page: https://github.com/ismetacar/ertis_auth_cli
 Author: ismetacar
@@ -33,18 +33,18 @@ Description: Ertis Auth Initializer CLI
         
         
         ```bash
-        $ pip install ertis_auth_cli
+        $ pip install ertis_auth_migrate
         ```
         
         #### Help
         
         ```bash
-        $ migrate --help
+        $ ertis_auth_migrate --help
         ```
         
         #### Setup
         ```bash
-        $ migrate -c <mogno_connection_string> -d <datbase_name>
+        $ ertis_auth_migrate -c <mogno_connection_string> -d <datbase_name>
         
         ```
         Then cli asks some questions to you. 

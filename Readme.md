@@ -25,18 +25,18 @@ Ertis Auth CLI create first models and create mongodb indexes by your given mong
 
 
 ```bash
-$ pip install ertis_auth_cli
+$ pip install ertis_auth_migrate
 ```
 
 #### Help
 
 ```bash
-$ migrate --help
+$ ertis_auth_migrate --help
 ```
 
 #### Setup
 ```bash
-$ migrate -c <mogno_connection_string> -d <datbase_name>
+$ ertis_auth_migrate -c <mogno_connection_string> -d <datbase_name>
 
 ```
 Then cli asks some questions to you. 
