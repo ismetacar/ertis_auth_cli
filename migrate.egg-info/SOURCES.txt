@@ -1,0 +1,7 @@
+setup.py
+migrate.egg-info/PKG-INFO
+migrate.egg-info/SOURCES.txt
+migrate.egg-info/dependency_links.txt
+migrate.egg-info/top_level.txt
+src/__init__.py
+src/migrate

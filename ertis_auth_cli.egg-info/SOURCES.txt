@@ -1,6 +1,7 @@
-cli
 setup.py
 ertis_auth_cli.egg-info/PKG-INFO
 ertis_auth_cli.egg-info/SOURCES.txt
 ertis_auth_cli.egg-info/dependency_links.txt
 ertis_auth_cli.egg-info/top_level.txt
+src/__init__.py
+src/ertis_auth_cli

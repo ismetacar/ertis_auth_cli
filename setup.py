@@ -3,11 +3,10 @@ import setuptools
 with open("Readme.md", "r") as readme:
     long_description = readme.read()
 
-
 setuptools.setup(
-    name="ertis_auth_cli",
+    name="migrate",
     version="0.1.0",
-    scripts=["cli"],
+    scripts=["src/migrate"],
     author="ismetacar",
     author_email="dismetacar@gmail.com",
     description="Ertis Auth initializer CLI",

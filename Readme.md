@@ -19,19 +19,19 @@ Installation
 ---
 
 ```bash
-$ pip install ertis_auth_cli
+$ pip install migrate
 ```
 
 Help
 ---
 ```bash
-$ ertis_auth_cli --help
+$ migrate --help
 ```
 
 Setup
 ---
 ```bash
-$ ertis_auth_cli -c <mogno_connection_string> -d <datbase_name>
+$ migrate -c <mogno_connection_string> -d <datbase_name>
 
 ```
 Then cli asks some questions to you. 
