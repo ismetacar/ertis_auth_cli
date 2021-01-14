@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: ertis-auth-cli
+Version: 0.1.0
+Summary: Ertis Auth initializer CLI
+Home-page: https://github.com/ismetacar/ertis-auth/cli
+Author: ismetacar
+Author-email: dismetacar@gmail.com
+License: UNKNOWN
+Description: Ertis Auth Initializer CLI
+        ===
+        
+        Init your database (mongodb) for using ertis auth.
+        
+        If you are using ertis auth, you should create first membership, role and user.
+        This manually operation have some risks. 
+            
+        * You may not be sure about Membership, user and role database models. 
+        * sys field. who is created that documents and when?
+        * You can forget database indexes before using. 
+        
+        Ertis Auth CLI create first models and create mongodb indexes by your given mongodb connection string.
+        
+        Usage
+        ===
+        
+        Installation
+        ---
+        
+        ```bash
+        $ pip install ertis_auth_cli
+        ```
+        
+        Help
+        ---
+        ```bash
+        $ ertis_auth_cli --help
+        ```
+        
+        Setup
+        ---
+        ```bash
+        $ ertis_auth_cli -c <mogno_connection_string> -d <datbase_name>
+        
+        ```
+        Then cli asks some questions to you. 
+        
+        ```bash
+        Initialize you ertis auth service.
+        ? Enter a membership name:  ertis
+        ? Enter a role name:  admin
+        ? Enter a username:  admin
+        ? Enter a password:  mySecretP@assWord!
+        ? Enter token ttl value as a minutes:  60
+        ? Enter refresh token ttl value as a minutes:  120
+        ? Enter max active token count by user:  120
+        ? Do you want create indexes on mongodb for ertis auth? [y|N]  True
+        ```
+        
+        After installation you can check your mongodb collections and indexes. 
+        
+        > Note:  if you have memberships, roles and users collections already this cli will be created only documents. s
+        > And documents means new membership, new role under membership and new user under membership. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
