@@ -5,3 +5,6 @@ __pycache__
 .pytest_cache
 /tests/.pytest_cache
 .coverage
+build
+dist
+ertis_auth_migrate.egg-info

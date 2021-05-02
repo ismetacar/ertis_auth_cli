@@ -32,7 +32,8 @@ role_doc = {
     "sys": {
         "created_at": datetime.datetime.utcnow(),
         "created_by": "ertis_cli"
-    }
+    },
+    "membership_owner": True
 }
 
 user_doc = {

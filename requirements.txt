@@ -5,3 +5,4 @@ setuptools~=51.1.2
 PyInquirer~=1.0.3
 python-slugify==4.0.1
 bcrypt==3.2.0
+dnspython==1.16.0

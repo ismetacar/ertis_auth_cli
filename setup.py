@@ -5,7 +5,7 @@ with open("Readme.md", "r") as readme:
 
 setuptools.setup(
     name="ertis_auth_migrate",
-    version="0.1.4",
+    version="0.1.6",
     scripts=["src/ertis_auth_migrate"],
     author="ismetacar",
     author_email="dismetacar@gmail.com",
@@ -22,6 +22,7 @@ setuptools.setup(
         "PyInquirer~=1.0.3",
         "python-slugify==4.0.1",
         "bcrypt==3.2.0",
+        "dnspython==1.16.0"
       ],
     classifiers=[
         "Programming Language :: Python :: 3",
